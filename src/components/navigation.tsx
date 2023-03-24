@@ -7,7 +7,7 @@ function Navigation() {
         <MenuItem href="/" className="text-red-800">
           home
         </MenuItem>
-        <MenuItem href="/another-1">another 1</MenuItem>
+        <MenuItem href="/pokemon">Pokemon</MenuItem>
         <MenuItem href="/another-2">another 2</MenuItem>
         <MenuItem href="/another-3">another 3</MenuItem>
 
