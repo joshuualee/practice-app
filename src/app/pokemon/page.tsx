@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default async function PokemonPage() {
   //   await new Promise((resolve) => setTimeout(resolve, 5000));
-  const pokemon = await fetch("http://localhost:3000/pokemon/api").then((res) =>
+  const pokemon = await fetch("https://pokeapi.co/api/v2/pokemon").then((res) =>
     res.json()
   );
 
